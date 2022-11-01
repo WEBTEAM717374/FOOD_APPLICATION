@@ -1,0 +1,322 @@
+body
+{
+    margin:0;
+    padding:0;
+}
+
+.main-top
+{
+    padding:60px;
+    background-image:url("images/bg.png");
+    background-size:cover;
+    opacity:0.9;
+    text-align:center;
+    font-size:30px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.bottom
+{
+    background-image:url("images/peachbg.png");
+    background-size:cover; 
+}
+
+.left
+{
+    margin-left:500px;
+    margin-top: 120px;
+    margin-bottom:140px;
+    color: white;
+    display:inline-block;
+    height:100px;
+    width:100px;
+    padding:50px;
+    text-align:center;
+    background-image: url("images/events.jpeg");
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+.right
+{
+    margin-left:100px;
+    margin-top: 120px;
+    margin-bottom:140px;
+    color: white;
+    display:inline-block;
+    height:100px;
+    width:100px;
+    padding:50px;
+    text-align:center;
+    background-image: url("images/menu.jpg");
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.card:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+/*********************************************************************************************************/
+
+.other-top
+{
+    padding:40px;
+    background-image:url("images/bg.png");
+    background-size:cover;
+    opacity:0.9;
+    text-align:center;
+    font-size:25px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.event-left-one
+{
+    margin-left:400px;
+    margin-top:70px;
+    color: white;
+    background-image: url("images/marriage.jpg"); 
+    background-size: cover;
+    display:inline-block;
+    height:100px;
+    width:100px;
+    padding:50px;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.event-center-one
+{
+    margin-left:100px;
+    margin-top:70px;
+    color: white;
+    background-image: url("images/anniversary.jpg");
+    background-size: cover;
+    display:inline-block;
+    height:100px;
+    width:100px;
+    padding:50px;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.event-right-one
+{
+    margin-left:100px;
+    margin-top:70px;
+    color: white;
+    background-image: url("images/festival.jpg");
+    background-size: cover;
+    display:inline-block;
+    height:100px;
+    width:100px;
+    padding:50px;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.event-left-two
+{
+    margin-left:400px;
+    margin-top:45px;
+    margin-bottom: 70px;
+    color: white;
+    background-image: url("images/corporate.jpg");
+    background-size: cover;
+    display:inline-block;
+    height:100px;
+    width:100px;
+    padding:50px;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.event-center-two
+{
+    margin-left:100px;
+    margin-top:45px;
+    margin-bottom: 70px;
+    color: white;
+    background-image: url("images/lunch.jpg");
+    background-size: cover;
+    display:inline-block;
+    height:100px;
+    width:100px;
+    padding:50px;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.event-right-two
+{
+    margin-left:100px;
+    margin-top:45px;
+    margin-bottom: 70px;
+    color: white;
+    background-image: url("images/family.jpg");
+    background-size: cover;
+    display:inline-block;
+    height:100px;
+    width:100px;
+    padding:50px;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*********************************************************************************************************/
+
+.menu-left-one
+{
+    margin-left:400px;
+    margin-top:70px;
+    color: white;
+    background-image: url("images/soup.jpeg"); 
+    background-size: cover;
+    display:inline-block;
+    height:100px;
+    width:100px;
+    padding:50px;
+    text-align:center;
+}
+
+.menu-center-one
+{
+    margin-left:100px;
+    margin-top:70px;
+    color: white;
+    background-image: url("images/starters.jpg");
+    background-size: cover;
+    display:inline-block;
+    height:100px;
+    width:100px;
+    padding:50px;
+    text-align:center;
+}
+
+.menu-right-one
+{
+    margin-left:100px;
+    margin-top:70px;
+    color: white;
+    background-image: url("images/maincourse.jpg");
+    background-size: cover;
+    display:inline-block;
+    height:100px;
+    width:100px;
+    padding:50px;
+    text-align:center;
+}
+
+.menu-left-two
+{
+    margin-left:400px;
+    margin-top:45px;
+    margin-bottom: 70px;
+    color: white;
+    background-image: url("images/special.jpg");
+    background-size: cover;
+    display:inline-block;
+    height:100px;
+    width:100px;
+    padding:50px;
+    text-align:center;
+}
+
+.menu-center-two
+{
+    margin-left:100px;
+    margin-top:45px;
+    margin-bottom: 70px;
+    color: white;
+    background-image: url("images/drinks.jpg");
+    background-size: cover;
+    display:inline-block;
+    height:100px;
+    width:100px;
+    padding:50px;
+    text-align:center;
+}
+
+.menu-right-two
+{
+    margin-left:100px;
+    margin-top:45px;
+    margin-bottom: 70px;
+    color: white;
+    background-image: url("images/desserts.jpg");
+    background-size: cover;
+    display:inline-block;
+    height:100px;
+    width:100px;
+    padding:50px;
+    text-align:center;
+}
+
+/*********************************************************************************************************/
+
+.bottom-container
+{
+    background-color: rgb(243, 245, 235);
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.divison-head
+{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center; 
+}
+
+.social-links
+{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.address,.feedback
+{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.fa-brands
+{
+    transition: transform 500ms ease;
+
+}
+.fa-bars
+{
+    color: rgb(255, 255, 255);
+   
+}
+.fa-brands:hover
+{
+    transform: scale(1.1);
+}
+
