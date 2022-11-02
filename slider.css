@@ -1,0 +1,64 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+.media-scroller {
+    display: grid;
+    grid-auto-flow: column;
+    gap: var(--size-3);
+    grid-auto-columns: 20%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+
+.media-element {
+    padding: var(--size-3);
+    background: var(--surface-2);
+    border-radius: var(--radius-2);
+}
+
+.media-element>img {
+    inline-size: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    background-color: beige;
+}
+
+
+}
+.container {
+    /*background: var(--gradient-4);*/
+    
+    color: black;
+    text-align: center;
+}
+.flow {
+    display: grid;
+    gap: var(--size-3);
+}
+.page-header {
+    margin-top: 40px;
+    padding-block: var(--size-14);
+    margin-block-end: var(--size-7);
+    color: black;
+    background-image: url("online-food.jpg");
+    background-size: cover;
+    opacity: 0.9;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: var(--shadow-3);
+    color: black;
+}
+.page-title {
+    font-size: var(--font-size-fluid-3);
+}
+.page-subtitle {
+    font-size: var(--font-size-fluid-1);
+}
+.section-title {
+    padding-inline-start: var(--size-6);
+    margin-block: var(--size-9) var(--size-3);
+}
+body {
+    background-color: beige;
+}

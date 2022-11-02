@@ -1,0 +1,175 @@
+.carousel {
+    position: relative;
+    height: 230px;
+    width: 17%;
+    margin: 0 auto;
+    background-color: beige;
+    border-radius: 50%;
+}
+
+.y {
+    text-align: left;
+    color: black;
+}
+
+.z {
+    color: azure;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.x {
+    font-display: rgb(0, 0, 0);
+    position: relative;
+}
+
+.logo {
+    color: black;
+}
+
+.title {
+    font-size: small;
+    font-style: italic;
+    color: azure;
+}
+
+.name {
+    font-family: 'montserrat';
+    color: rgb(0, 0, 0);
+}
+
+body {
+    color: azure;
+    text-decoration-color: rgb(0, 0, 0);
+}
+
+img {
+    border-radius: 10%;
+}
+
+.carousel_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel_track-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel__track {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 100%;
+    position: relative;
+    transition: transform 250ms ease-in;
+}
+
+.carousel_slide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%
+}
+
+.carousel_button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.carousel_button--left {
+    left: -40px;
+}
+
+.carousel_button--right {
+    right: -40px;
+}
+
+.carousel_button img {
+    width: 15px;
+}
+
+.carousel_nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.carousel_indicator {
+    border: 0;
+    border-radius: 30%;
+    width: 5px;
+    height: 8px;
+    background: rgba(0, 0, 0, .2);
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+.carousel_indicator.current-slide {
+    background: rgba(0, 0, 0, .9);
+}
+
+.is-hidden {
+    display: none;
+}
+
+.bottom-container {
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+    padding-bottom: 75px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.social-links {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.divison-head {
+    width: 50%;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    padding-left: auto;
+}
+
+.feedback {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.address {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.fa-brands {
+    transition: transform 500ms ease;
+}
+
+.fa-brands:hover {
+    transform: scale(1.1);
+}
