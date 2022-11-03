@@ -7,7 +7,7 @@ body
 .main-top
 {
     padding:60px;
-    background-image:url("images/bg.png");
+    background-image:url("bg.png");
     background-size:cover;
     opacity:0.9;
     text-align:center;
@@ -17,7 +17,7 @@ body
 }
 .bottom
 {
-    background-image:url("images/peachbg.png");
+    background-image:url("peachbg.png");
     background-size:cover; 
 }
 
@@ -32,7 +32,7 @@ body
     width:100px;
     padding:50px;
     text-align:center;
-    background-image: url("images/events.jpeg");
+    background-image: url("events.jpeg");
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
 }
@@ -47,7 +47,7 @@ body
     width:100px;
     padding:50px;
     text-align:center;
-    background-image: url("images/menu.jpg");
+    background-image: url("menu.jpg");
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
 }
@@ -75,7 +75,7 @@ a:active { text-decoration: none; }
 .other-top
 {
     padding:40px;
-    background-image:url("images/bg.png");
+    background-image:url("bg.png");
     background-size:cover;
     opacity:0.9;
     text-align:center;
@@ -89,8 +89,9 @@ a:active { text-decoration: none; }
     margin-left:400px;
     margin-top:70px;
     color: white;
-    background-image: url("images/marriage.jpg"); 
+    background-image: url("marriage.jpg"); 
     background-size: cover;
+    opacity:0.9;
     display:inline-block;
     height:100px;
     width:100px;
@@ -104,8 +105,9 @@ a:active { text-decoration: none; }
     margin-left:100px;
     margin-top:70px;
     color: white;
-    background-image: url("images/anniversary.jpg");
+    background-image: url("anniversary.jpg");
     background-size: cover;
+    opacity:0.9;
     display:inline-block;
     height:100px;
     width:100px;
@@ -119,8 +121,9 @@ a:active { text-decoration: none; }
     margin-left:100px;
     margin-top:70px;
     color: white;
-    background-image: url("images/festival.jpg");
+    background-image: url("festival.jpg");
     background-size: cover;
+    opacity:0.9;
     display:inline-block;
     height:100px;
     width:100px;
@@ -135,8 +138,9 @@ a:active { text-decoration: none; }
     margin-top:45px;
     margin-bottom: 70px;
     color: white;
-    background-image: url("images/corporate.jpg");
+    background-image: url("corporate.jpg");
     background-size: cover;
+    opacity:0.9;
     display:inline-block;
     height:100px;
     width:100px;
@@ -151,8 +155,9 @@ a:active { text-decoration: none; }
     margin-top:45px;
     margin-bottom: 70px;
     color: white;
-    background-image: url("images/lunch.jpg");
+    background-image: url("lunch.jpg");
     background-size: cover;
+    opacity:0.9;
     display:inline-block;
     height:100px;
     width:100px;
@@ -167,8 +172,9 @@ a:active { text-decoration: none; }
     margin-top:45px;
     margin-bottom: 70px;
     color: white;
-    background-image: url("images/family.jpg");
+    background-image: url("family.jpg");
     background-size: cover;
+    opacity:0.9;
     display:inline-block;
     height:100px;
     width:100px;
@@ -184,8 +190,9 @@ a:active { text-decoration: none; }
     margin-left:400px;
     margin-top:70px;
     color: white;
-    background-image: url("images/soup.jpeg"); 
+    background-image: url("soup.jpeg"); 
     background-size: cover;
+    opacity:0.9;
     display:inline-block;
     height:100px;
     width:100px;
@@ -198,8 +205,9 @@ a:active { text-decoration: none; }
     margin-left:100px;
     margin-top:70px;
     color: white;
-    background-image: url("images/starters.jpg");
+    background-image: url("starters.jpg");
     background-size: cover;
+    opacity:0.9;
     display:inline-block;
     height:100px;
     width:100px;
@@ -212,8 +220,9 @@ a:active { text-decoration: none; }
     margin-left:100px;
     margin-top:70px;
     color: white;
-    background-image: url("images/maincourse.jpg");
+    background-image: url("maincourse.jpg");
     background-size: cover;
+    opacity:0.9;
     display:inline-block;
     height:100px;
     width:100px;
@@ -227,8 +236,9 @@ a:active { text-decoration: none; }
     margin-top:45px;
     margin-bottom: 70px;
     color: white;
-    background-image: url("images/special.jpg");
+    background-image: url("special.jpg");
     background-size: cover;
+    opacity:0.9;
     display:inline-block;
     height:100px;
     width:100px;
@@ -242,8 +252,9 @@ a:active { text-decoration: none; }
     margin-top:45px;
     margin-bottom: 70px;
     color: white;
-    background-image: url("images/drinks.jpg");
+    background-image: url("drinks.jpg");
     background-size: cover;
+    opacity:0.9;
     display:inline-block;
     height:100px;
     width:100px;
@@ -257,8 +268,9 @@ a:active { text-decoration: none; }
     margin-top:45px;
     margin-bottom: 70px;
     color: white;
-    background-image: url("images/desserts.jpg");
+    background-image: url("desserts.jpg");
     background-size: cover;
+    opacity:0.9;
     display:inline-block;
     height:100px;
     width:100px;
