@@ -11,7 +11,7 @@
 
 .media-element {
     padding: var(--size-3);
-    background: var(--surface-2);
+    background: black;
     border-radius: var(--radius-2);
 }
 
