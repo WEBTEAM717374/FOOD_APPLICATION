@@ -54,6 +54,7 @@
 .page-title {
     font-size: var(--font-size-fluid-3);
     color: azure;
+    text-align: center;
     padding-left: 50px;
     margin-left: 40px;
 }
@@ -71,6 +72,7 @@
     font-size: var(--font-size-fluid-1);
     color: black;
      padding-left: 20px;
+    text-align: center;
     margin-left: 30px;
 }
 .section-title {
