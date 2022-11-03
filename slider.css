@@ -23,7 +23,7 @@
 }
 
 
-}
+
 .container {
     /*background: var(--gradient-4);*/
     
@@ -58,7 +58,7 @@
     padding-left: 50px;
     margin-left: 40px;
 }
-}
+
 .order {
     font-size: 300%;
     color: black;
