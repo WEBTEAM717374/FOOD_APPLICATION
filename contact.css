@@ -58,7 +58,7 @@ body {
 
 .content .left-side .details i {
     font-size: 30px;
-    color: #1bffe1;
+    color: red;
     margin-bottom: 10px;
 }
 
@@ -82,7 +82,7 @@ body {
 .content .right-side .topic-text {
     font-size: 23px;
     font-weight: 600;
-    color: #13fff3;
+    color: red;
 }
 
 .right-side .input-box {
@@ -124,13 +124,13 @@ body {
     border: none;
     padding: 8px 16px;
     border-radius: 6px;
-    background: #00ffdd;
+    background: red;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .button input[type="button"]:hover {
-    background: #21ffda;
+    background: red;
 }
 
 @media (max-width: 950px) {
