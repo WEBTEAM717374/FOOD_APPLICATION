@@ -28,11 +28,13 @@
     /*background: var(--gradient-4);*/
     
     color: black;
-    text-align: center;
+    /*text-align: center;*/
+    justify-content: center;
 }
 .flow {
     display: grid;
     gap: var(--size-3);
+    justify-content: center;
 }
 .page-header {
     margin-top: 40px;
@@ -51,13 +53,16 @@
 }
 .page-title {
     font-size: var(--font-size-fluid-3);
+    color: azure;
 }
 .page-subtitle {
     font-size: var(--font-size-fluid-1);
+    color: black;
 }
 .section-title {
     padding-inline-start: var(--size-6);
     margin-block: var(--size-9) var(--size-3);
+    color: black;
 }
 body {
     background-color: beige;
