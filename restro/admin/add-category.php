@@ -53,8 +53,8 @@ include('partials/menu.php');?>
                         <tr>
                                 <td>Active:</td>
                                 <td>
-                                    <input type="radio" name="active" value="yes">Yes
-                                    <input type="radio" name="active" value="no">No
+                                    <input type="radio" name="active" value="Yes">Yes
+                                    <input type="radio" name="active" value="No">No
                                 </td>
                         </tr>
                         <tr>
@@ -119,36 +119,38 @@ include('partials/menu.php');?>
                         //to upload image we need image name and then source paths and destination path
                            $image_name = $_FILES['image']['name'];
                         //auto rename image
-
+ 
                         //get the extension of the image
-                      
+                         //upload image only if selected
+                             if ($image_name != "")
+                            {
+                                $image_info = explode('.', $image_name);
+                                $ext = end($image_info);
+                                 $image_name = "Food_category". rand(000, 999).'.'.$ext;
+                                $source_path = $_FILES['image']['tmp_name'];
+
+                                $destination_path ="../images/category/".$image_name;
+
+                                //finalyy upload image
+                    
+                                $upload = move_uploaded_file($source_path, $destination_path);
 
 
-
-                        $source_path = $_FILES['image']['tmp_name'];
-
-                       $destination_path = "../images/category/".$image_name;
-
-                      //finalyy upload image
-
-                       $upload = move_uploaded_file($source_path, $destination_path);
-                       
-
-                       if($upload==FALSE)
-                       {
-                        $_SESSION['upload'] = "<div class='error'>Failed to upload image .</div>";
+                                    if ($upload == FALSE)
+                                  {
+                                        $_SESSION['upload'] = "<div class='error'>Failed to upload image .</div>";
 
 
-                        header('location:' . SITEURL . 'admin/add-category.php');
+                                    header('location:' . SITEURL . 'admin/add-category.php');
 
 
-                        //stop the process
-
-                        die();
+                                //stop the process
+                
+                                       die();
+                                 }
+                            }
                        }
-
-                     }
-                     else
+                       else
                      {
 
 
